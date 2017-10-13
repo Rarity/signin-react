@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Field, reduxForm } from 'redux-form'
@@ -27,7 +27,7 @@ const buttonStyle = {
 };
 
 const SigninForm = props => {
-  const { handleSubmit, pristine, submitting } = props;
+  const { handleSubmit, submitting } = props;
   return (
     <div className="signin-container">
       <form onSubmit={handleSubmit}>
@@ -47,6 +47,7 @@ const SigninForm = props => {
         </div>
         <div>
           <RaisedButton 
+            style={buttonStyle}
             type="submit" 
             label="Sign In" 
             primary={true}

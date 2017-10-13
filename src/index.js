@@ -9,7 +9,7 @@ import './index.css';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import SigninForm from './components/SigninForm/SigninForm';
+import SigninForm from './components/SigninForm';
 
 
 

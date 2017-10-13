@@ -1,1 +1,3 @@
-export {default} from './signinForm.jsx';
+import SigninForm from './SigninForm';
+
+export default SigninForm;
