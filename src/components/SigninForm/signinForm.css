@@ -1,0 +1,28 @@
+.signin-container {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  
+}
+
+/* autofilled stylization */
+.signin-container input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #eee;
+  caret-color: #eee;
+  transition: background-color 9999s ease-in-out 0s;
+
+}
+
